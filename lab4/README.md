@@ -64,5 +64,5 @@ rmmod hello
 cat /sys/module/hello2/parameters/hello
 ```
 ```
-grep "exported_symbol" /proc/kallsyms
+cat /proc/kallsyms | grep "exported_symbol" 
 ```
